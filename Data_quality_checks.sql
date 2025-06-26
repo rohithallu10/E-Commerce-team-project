@@ -28,8 +28,8 @@ HAVING COUNT(*) > 1;
 
 -- 1. Check if order_item_id is unique and not null
 SELECT 
-    COUNT(*) AS TotalRows,								---40025
-    COUNT(DISTINCT order_item_id) AS UniqueOrderItemIDs, --40025
+    COUNT(*) AS TotalRows,							
+    COUNT(DISTINCT order_item_id) AS UniqueOrderItemIDs, 
     COUNT(*) - COUNT(order_item_id) AS NullOrderItemIDs
 FROM order_items;
 
@@ -69,7 +69,7 @@ FROM order_items
 WHERE price_usd < cogs_usd;
 
 
----Order items should be created after order id’s
+---Order items should be created after order idâ€™s
 SELECT oi.*
 FROM order_items oi
 LEFT JOIN orders o ON oi.order_id = o.order_id
@@ -272,9 +272,8 @@ select count(distinct order_id) no_of_orders,count(distinct created_at) no_of_ti
 count(distinct primary_product_id) no_of_products,count(distinct items_purchased) no_of_total_items ,count(distinct price_usd) no_of_prices,
 count(distinct cogs_usd) no_of_costs from orders
 
--------------to see price----------------
 
-----------------------------------------to count duplicates----------------(14 created_at,617 user_id---------------------
+----------------------------------------to count duplicates----------------
 
 SELECT
   COUNT(*) - COUNT(distinct website_session_id) AS duplicate_website_session_id,
@@ -375,9 +374,8 @@ order by created_at
 select count(distinct order_item_id) no_of_orders_item,count(distinct created_at) no_of_timings,count(distinct order_id)no_of_orders,
 count(distinct product_id) no_of_products,count(distinct is_primary_item) no_of_primry_nonprimry ,count(distinct price_usd) no_of_prices,
 count(distinct cogs_usd) no_of_costs from order_items
-/*no_of_orders	no_of_timings	no_of_orders	no_of_products	no_of_primry_nonprimry	no_of_prices	no_of_costs
-40025	32299	                     32313	              4	             2	                 4	             4 */
 
+	
 -----------to display distinct price & cost-----------------------------------
 select distinct product_id, price_usd as price_list, cogs_usd as cost_list from order_items
 order by product_id
