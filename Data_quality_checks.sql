@@ -386,20 +386,19 @@ select * from website_sessions into w_sessions
 
 ---updating nulls with unknown
 UPDATE w_sessions
-SET 
-    user_id           = ISNULL(user_id, -1),                            
-    utm_source        = ISNULL(utm_source, 'unknown'),
-    utm_campaign      = ISNULL(utm_campaign, 'unknown'),
-    utm_content       = ISNULL(utm_content, 'unknown'),
-    device_type       = ISNULL(device_type, 'unknown'),
-    http_referer      = ISNULL(http_referer, 'unknown')
-WHERE 
-    user_id IS NULL OR
-    is_repeat_session IS NULL OR
-    utm_source IS NULL OR
-    utm_campaign IS NULL OR
-    utm_content IS NULL OR
-    device_type IS NULL OR
-    http_referer IS NULL;
+SET  
+    user_id       = -1,
+    utm_source    = CASE WHEN utm_source = 'NULL' THEN 'unknown' ELSE utm_source END,
+    utm_campaign  = CASE WHEN utm_campaign = 'NULL' THEN 'unknown' ELSE utm_campaign END,
+    utm_content   = CASE WHEN utm_content = 'NULL' THEN 'unknown' ELSE utm_content END,
+    device_type   = CASE WHEN device_type = 'NULL' THEN 'unknown' ELSE device_type END,
+    http_referer  = CASE WHEN http_referer = 'NULL' THEN 'unknown' ELSE http_referer END
+WHERE  
+    user_id is null OR
+    utm_source = 'NULL' OR
+    utm_campaign = 'NULL' OR
+    utm_content = 'NULL' OR
+    device_type = 'NULL' OR
+    http_referer = 'NULL'
 
 
