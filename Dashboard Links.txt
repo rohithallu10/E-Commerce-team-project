@@ -1,0 +1,17 @@
+POWERBI LINKS
+
+CEO Dashboard : https://app.powerbi.com/viewr=eyJrIjoiMDhhMjUzY2QtYTY0MS00OWQ5LWIxNjQtMmE5ZjBhNmQzZWQ0IiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+
+Marketing Manager Dashboard:
+https://app.powerbi.com/view?r=eyJrIjoiYTZjMzJiODQtYzhjOC00ODliLTgwNmEtNjY4ODVjOTI2ZmQ3IiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+
+Website Manager Dashboard:
+https://app.powerbi.com/view?r=eyJrIjoiMjk0MDJjMjItZWZmOS00ODhjLTg5NmMtNTdjODQ5NmVjMzExIiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+
+Investors Dashboard:
+https://app.powerbi.com/view?r=eyJrIjoiOGFkMTcyYzEtYTZjYy00NGE5LWEyMmMtN2E5YTAyOWY4ZGIyIiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+
+
+
+GIT REPOSITORY
+https://github.com/rohithallu10/E-Commerce-team-project
