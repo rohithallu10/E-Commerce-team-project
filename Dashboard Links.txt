@@ -13,5 +13,8 @@ https://app.powerbi.com/view?r=eyJrIjoiOGFkMTcyYzEtYTZjYy00NGE5LWEyMmMtN2E5YTAyO
 
 
 
-GIT REPOSITORY
-https://github.com/rohithallu10/E-Commerce-team-project
+WEB APP:
+Streamlit Cloud link:
+https://ecommerceteamproject-9jswms6rcnwppktpf6tihm.streamlit.app/
+username : user
+password : user123
