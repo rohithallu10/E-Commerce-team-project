@@ -1,15 +1,15 @@
 POWERBI LINKS
 
-CEO Dashboard : https://app.powerbi.com/viewr=eyJrIjoiMDhhMjUzY2QtYTY0MS00OWQ5LWIxNjQtMmE5ZjBhNmQzZWQ0IiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+CEO Dashboard : https://app.powerbi.com/groups/me/reports/a65d25de-fe41-4eda-a0de-984106118d16/544bf34dc8c51a6d3a09?experience=power-bi
 
 Marketing Manager Dashboard:
-https://app.powerbi.com/view?r=eyJrIjoiYTZjMzJiODQtYzhjOC00ODliLTgwNmEtNjY4ODVjOTI2ZmQ3IiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+https://app.powerbi.com/groups/me/reports/7a87d0a7-dea5-4b27-a36b-b05dc017c285/a8a9f849d208ec822100?experience=power-bi
 
 Website Manager Dashboard:
-https://app.powerbi.com/view?r=eyJrIjoiMjk0MDJjMjItZWZmOS00ODhjLTg5NmMtNTdjODQ5NmVjMzExIiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+https://app.powerbi.com/groups/me/reports/ebb02e57-e6a0-43e7-8231-6bab8a46f86a/a8a9f849d208ec822100?experience=power-bi
 
 Investors Dashboard:
-https://app.powerbi.com/view?r=eyJrIjoiOGFkMTcyYzEtYTZjYy00NGE5LWEyMmMtN2E5YTAyOWY4ZGIyIiwidCI6ImVhNmY3ZmE3LTZmMGUtNGViNC04Mzg0LTczNzMwYzZiYzg0OSJ9
+https://app.powerbi.com/groups/me/reports/2246d232-8d50-4a9b-b534-353d437e3ad8/26f2be9409544a0e7d50?experience=power-bi
 
 
 
