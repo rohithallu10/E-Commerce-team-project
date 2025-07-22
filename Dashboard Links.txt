@@ -1,6 +1,7 @@
 POWERBI LINKS
 
-CEO Dashboard : https://app.powerbi.com/groups/me/reports/a65d25de-fe41-4eda-a0de-984106118d16/544bf34dc8c51a6d3a09?experience=power-bi
+CEO Dashboard : 
+https://app.powerbi.com/groups/me/reports/a65d25de-fe41-4eda-a0de-984106118d16/544bf34dc8c51a6d3a09?experience=power-bi
 
 Marketing Manager Dashboard:
 https://app.powerbi.com/groups/me/reports/7a87d0a7-dea5-4b27-a36b-b05dc017c285/a8a9f849d208ec822100?experience=power-bi
